@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+.layout { 
+  position: relative; 
+}
+
+.layout div { 
+  position: absolute;
+}
+
+.col1 { 
+  width: 33%; 
+}
+
+.col2 { 
+  width: 34%;
+  left: 33%;
+}
+
+.col3 { 
+  width: 33%;
+  right: 0;
+}
